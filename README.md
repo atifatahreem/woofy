@@ -1,4 +1,8 @@
-# woofy
+# woofy 🐶
+
+woof woof 🐾  
+woof woof 🐾  
+woof woof 🐾
 
 Don’t judge the HTML cuz HTML isn’t vibe coded.
 
