@@ -1,5 +1,5 @@
 # woofy
 
-If you’re seeing this consider giving it a star 
+Don’t judge the HTML cuz HTML isn’t vibe coded.
 
-Don’t judge the HTML code
+If you’re reading this consider giving it a star
