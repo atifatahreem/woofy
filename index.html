@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>woof woof</title>
+
+<style>
+
+*{
+box-sizing:border-box;
+}
+
+body{
+font-family:monospace;
+background:#000;
+color:#fff;
+margin:0;
+line-height:1.6;
+display:flex;
+justify-content:center;
+padding:40px 20px;
+}
+
+/* main layout */
+.container{
+width:100%;
+max-width:900px;
+}
+
+/* headings */
+h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+h2{
+margin-top:50px;
+font-size:24px;
+}
+
+/* text */
+p{
+font-size:16px;
+max-width:600px;
+}
+
+/* image */
+img{
+width:100%;
+max-width:320px;
+border-radius:12px;
+margin-top:25px;
+}
+
+/* links */
+a{
+color:#fff;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+/* button */
+button{
+margin-top:25px;
+padding:12px 18px;
+font-family:monospace;
+cursor:pointer;
+background:#fff;
+border:none;
+border-radius:6px;
+}
+
+/* lists */
+ul{
+padding-left:20px;
+}
+
+/* laptop layout */
+@media (min-width:800px){
+
+.container{
+display:grid;
+grid-template-columns:1fr 320px;
+gap:60px;
+align-items:start;
+}
+
+.main{
+max-width:600px;
+}
+
+img{
+margin-top:0;
+}
+
+}
+
+/* mobile */
+@media (max-width:600px){
+
+body{
+padding:20px;
+}
+
+h1{
+font-size:34px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="main">
+
+<h1>WOOF WOOF 🐾</h1>
+
+<p>
+I am Atifa (aka woof woof)<br><br>
+
+I am just a vibe coder.<br>
+Don't expect actual coding from me.<br><br>
+
+woof woof 🐾
+</p>
+
+<button onclick="woof()">pet the dog</button>
+
+<h2>LINKS</h2>
+
+<ul>
+<li><a href="https://x.com/AtifaTahreem" target="_blank">X (Twitter)</a></li>
+<li><a href="https://www.instagram.com/atifatahreem_/" target="_blank">Instagram</a></li>
+</ul>
+
+<h2>PROJECTS</h2>
+
+<p>
+I haven't built any cool projects yet :( <br><br>
+</p>
+
+</div>
+
+<div>
+<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWhybmJma29hOTI4OTluOTE4Mjlvd2c3MHpsaDNzdmU5ZmRxMDcxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Fu3OjBQiCs3s0ZuLY3/giphy.gif">
+</div>
+
+</div>
+
+<script>
+
+function woof(){
+alert("WOOF WOOF 🐕");
+}
+
+</script>
+
+</body>
+</html>
